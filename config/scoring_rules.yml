@@ -1,0 +1,112 @@
+score_boundaries:
+  strong_fit_min: 75
+  medium_fit_min: 50
+
+icp_fit:
+  weights:
+    target_industry: 15
+    target_stage: 15
+    employee_count_fit: 10
+    decision_maker_contact: 10
+    strong_fit_signal: 25
+    pain_relevance: 15
+    weak_fit_penalty: -15
+    disqualifier_penalty: -35
+  employee_count:
+    min: 5
+    max: 250
+
+pain_intensity:
+  high_keywords:
+    - "blocked"
+    - "losing deals"
+    - "missed forecast"
+    - "slipping"
+    - "stalled"
+    - "painful"
+    - "manual"
+    - "chaos"
+    - "cannot tell"
+    - "board meeting"
+  medium_keywords:
+    - "friction"
+    - "messy"
+    - "inconsistent"
+    - "hard to track"
+    - "takes time"
+    - "needs visibility"
+  low_keywords:
+    - "curious"
+    - "nice to have"
+    - "exploring"
+    - "someday"
+
+budget_signal:
+  high_keywords:
+    - "approved budget"
+    - "budget allocated"
+    - "can pay"
+    - "paid pilot"
+    - "vendor budget"
+  medium_keywords:
+    - "budget if"
+    - "can find budget"
+    - "depends on roi"
+    - "pilot budget"
+  low_keywords:
+    - "no budget"
+    - "budget is tight"
+    - "unfunded"
+    - "after fundraising"
+
+follow_up_clarity:
+  clear_next_step_keywords:
+    - "scheduled"
+    - "schedule"
+    - "booked"
+    - "book"
+    - "send contract"
+    - "send roi proof"
+    - "send security"
+    - "send sample"
+    - "technical review"
+    - "pilot start"
+    - "intro to"
+    - "founder intro"
+    - "next call"
+    - "rescue session"
+  vague_next_step_keywords:
+    - "send info"
+    - "circle back"
+    - "keep in touch"
+    - "follow up later"
+    - "maybe"
+    - "tbd"
+
+pitch_clarity:
+  confusion_penalty_per_signal: 15
+  narrative_gap_penalty_per_signal: 10
+
+implementation_risk:
+  keywords:
+    - "implementation"
+    - "migration"
+    - "integration"
+    - "security review"
+    - "legal review"
+    - "no bandwidth"
+    - "ops team is stretched"
+
+deal_rescue_priority:
+  high_min_score: 82
+  medium_min_score: 50
+  weights:
+    icp_fit_score: 0.25
+    pain_intensity_score: 0.20
+    urgency_score: 0.15
+    budget_score: 0.10
+    unresolved_objection_risk: 15
+    unclear_next_step_risk: 15
+    competitor_risk: 8
+    pitch_confusion_risk: 8
+    implementation_risk_penalty: 6
