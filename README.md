@@ -154,9 +154,12 @@ If you are non-technical, the practical path is:
 - Use [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) before calls to research accounts and prepare outreach.
 - Use `founder-led-sales-call-os` after calls to extract learning and prioritize deal rescue.
 - Use [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) weekly to connect call-level insights to funnel leakage.
+- Use [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) when post-call workflows need an automate, pilot, hire, outsource, or keep-manual decision.
 - Use [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) to roll these learnings into the weekly operating review.
 - Use [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) to translate GTM learning into investor-safe narrative.
 - Use [founder-os](https://github.com/shubham1502-hue/founder-os) as the umbrella operating system.
+
+If post-call sales workflows become repetitive, use [Founder AI Workflow ROI OS](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) to decide whether call summaries, CRM updates, follow-up drafting, objection tagging, or reporting should be automated, piloted, hired for, outsourced, or kept manual.
 
 ## Portfolio fit
 
