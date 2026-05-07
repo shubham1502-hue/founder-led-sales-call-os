@@ -120,9 +120,24 @@ def collect_proof_points(objection_bank: pd.DataFrame, narrative_rows: pd.DataFr
     if not objection_bank.empty:
         for row in objection_bank.head(4).to_dict("records"):
             points.append(str(row.get("recommended_proof_point")))
-    for row in narrative_rows.head(3).to_dict("records"):
+    gap_to_proof = {
+        "proof": "Add one anonymized raw-note to output example.",
+        "roi": "Add a simple ROI example showing founder time saved and pipeline rescued.",
+        "workflow": "Add a short diagram of the Friday export to weekly memo workflow.",
+        "example": "Add a concrete sample call note and the exact extracted output.",
+        "case study": "Add a lightweight case-style walkthrough using synthetic data.",
+        "before and after": "Add a before and after view: messy notes on the left, founder decisions on the right.",
+        "category": "Add a category explanation: post-call intelligence for founder-led sales.",
+        "positioning": "Add a positioning slide that contrasts post-call learning with CRM storage and call recording.",
+        "why now": "Add why-now copy tied to board meetings, pipeline reviews, and stalled deals.",
+        "who owns this": "Add a section clarifying whether the founder, RevOps, or founder's office owns the weekly loop.",
+    }
+    for row in narrative_rows.head(5).to_dict("records"):
         for gap in split_joined(row.get("narrative_gaps")):
-            points.append(f"Add proof for: {gap}")
+            normalized_gap = gap.lower().strip()
+            point = gap_to_proof.get(normalized_gap)
+            if point:
+                points.append(point)
     unique: list[str] = []
     seen: set[str] = set()
     for point in points or ["A concrete call-to-output example from raw notes to weekly memo."]:

@@ -2,9 +2,18 @@
 
 Turn messy founder sales calls into objections, deal risks, follow-up priorities, and GTM narrative experiments.
 
-This repo helps founders learn from sales calls faster. It turns scattered call notes into decisions, creates a weekly loop for improving the sales narrative, and helps prioritize which deals deserve founder intervention.
+Use this after sales calls. Drop in your messy call notes, edit one YAML file, run one command, and get a founder-ready weekly learning loop:
+
+- Which objections repeated
+- Which deals need founder intervention
+- Where prospects got confused
+- Which proof points are missing
+- What narrative to test next week
+
+The included sample run generates a call intelligence CSV, objection bank, deal rescue queue, weekly sales learning memo, and narrative experiments. It is built for founders who need decisions, not another dashboard.
 
 The base workflow is deterministic and offline. No paid API is required.
+All included sample data is synthetic and fictionalized.
 
 ## The founder problem
 
@@ -41,6 +50,14 @@ Founder-Led Sales Call OS turns those conversations into structured GTM intellig
 - Pitch confusion signals
 - Narrative experiments
 - A weekly sales learning memo
+
+Example from the included demo:
+
+- 15 messy synthetic sales calls reviewed
+- 7 price objections detected
+- 4 security objections detected
+- 6 high-priority deal rescue actions generated
+- Pitch confusion flagged where prospects compared the workflow to a CRM or analytics tool
 
 ## Before and after
 
@@ -115,14 +132,22 @@ python -m founder_sales_os.cli run \
 
 1. Click **Fork**.
 2. Rename the repo if needed.
-3. Replace `data/sample_sales_calls.csv` with your own call notes.
+3. Replace `data/sample_sales_calls.csv` with your own call notes. Keep the column names the same.
 4. Edit `config/company_profile.yml` for your product, ICP, competitors, objections, urgency signals, and proof points.
-5. Edit `config/scoring_rules.yml` if your scoring weights are different.
+5. Optional: edit `config/scoring_rules.yml` if your scoring weights are different.
 6. Run `make run`.
-7. Review files inside `outputs/`.
-8. Optional: connect output CSVs to Google Sheets, Notion, Airtable, HubSpot, Pipedrive, Attio, or your CRM.
+7. Open `outputs/weekly_sales_learning_memo.md` first.
+8. Open `outputs/deal_rescue_queue.csv` second.
+9. Optional: connect output CSVs to Google Sheets, Notion, Airtable, HubSpot, Pipedrive, Attio, or your CRM.
 
 Keep private prospect and customer data out of public forks.
+
+If you are non-technical, the practical path is:
+
+- Replace one file: `data/sample_sales_calls.csv`
+- Edit one file: `config/company_profile.yml`
+- Run one command: `make run`
+- Read one memo first: `outputs/weekly_sales_learning_memo.md`
 
 ## Where this fits in the Founder OS
 

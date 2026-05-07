@@ -33,11 +33,11 @@ This file turns what prospects actually said into messaging tests for the next w
 - Provide an anonymized sample output and security checklist.
 - Use a 7-day sales learning loop example.
 - Show HubSpot, Salesforce, Attio, or Pipedrive CSV import examples.
-- Add proof for: proof
-- Add proof for: roi
-- Add proof for: workflow
-- Add proof for: example
-- Add proof for: before and after
+- Add one anonymized raw-note to output example.
+- Add a simple ROI example showing founder time saved and pipeline rescued.
+- Add a short diagram of the Friday export to weekly memo workflow.
+- Add a concrete sample call note and the exact extracted output.
+- Add a before and after view: messy notes on the left, founder decisions on the right.
 
 ## Questions the founder should ask in the next 5 calls
 - What happens if this same objection shows up in five more calls this month?
