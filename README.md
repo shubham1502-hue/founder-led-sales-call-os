@@ -130,7 +130,7 @@ python -m founder_sales_os.cli run \
 
 ## How to fork and use this for your company
 
-1. Click **Fork**.
+1. Click Fork.
 2. Rename the repo if needed.
 3. Replace `data/sample_sales_calls.csv` with your own call notes. Keep the column names the same.
 4. Edit `config/company_profile.yml` for your product, ICP, competitors, objections, urgency signals, and proof points.
