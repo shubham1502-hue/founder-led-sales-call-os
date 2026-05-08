@@ -187,12 +187,17 @@ After:
 - Use `founder-led-sales-call-os` after calls to extract learning and prioritize deal rescue.
 - Use [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) weekly to connect call-level insights to funnel leakage.
 - After a deal closes, use [Founder Customer Onboarding OS](https://github.com/shubham1502-hue/founder-customer-onboarding-os) to track whether the customer reaches activation, whether handoffs are clear, and whether founder intervention is needed.
+- Use [Founder Product Feedback Roadmap OS](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) when repeated sales objections, product gaps, narrative confusion, or deal blockers should become roadmap decisions.
 - Use [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) when post-call workflows need an automate, pilot, hire, outsource, or keep-manual decision.
 - Use [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) to roll these learnings into the weekly operating review.
 - Use [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) to translate GTM learning into investor-safe narrative.
 - Use [founder-os](https://github.com/shubham1502-hue/founder-os) as the umbrella operating system.
 
 If post-call sales workflows become repetitive, use [Founder AI Workflow ROI OS](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) to decide whether call summaries, CRM updates, follow-up drafting, objection tagging, or reporting should be automated, piloted, hired for, outsourced, or kept manual.
+
+## Product roadmap input
+
+[Founder Product Feedback Roadmap OS](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) can use repeated sales objections, product gaps, narrative confusion, and deal blockers from sales calls to decide what should be built, validated, solved outside product, deferred, or rejected.
 
 ## Portfolio fit
 
@@ -202,6 +207,7 @@ This repo is one module in a broader founder-facing operating system:
 - `founder-led-sales-call-os` helps after the sales call.
 - `founder-os-revenue-engine` helps diagnose funnel leakage.
 - `founder-customer-onboarding-os` helps after close-won with onboarding health, activation risk, and founder intervention priorities.
+- `founder-product-feedback-roadmap-os` helps turn repeated customer and sales signals into roadmap decisions.
 - `founder-weekly-operating-review-agent` helps run the weekly operating review.
 - `board-pack-investor-update-agent` helps convert operating metrics into investor narrative.
 
