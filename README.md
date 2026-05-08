@@ -149,6 +149,38 @@ If you are non-technical, the practical path is:
 - Run one command: `make run`
 - Read one memo first: `outputs/weekly_sales_learning_memo.md`
 
+## Standalone or integrated
+
+Standalone:
+Use this repo by itself if you only need to turn founder-led sales call notes into objections, deal risks, follow-up priorities, and weekly sales learning. Fork it, replace the sample input, run the workflow or copy the templates, and use the main output in your next founder review.
+
+Integrated:
+Use this repo with the Founder OS ecosystem if you want to connect it to adjacent operating workflows.
+
+- Use after calls.
+- Feed deal risk and objections into [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine).
+- After close-won, move customer tracking into [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os).
+- Feed sales learnings into [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent).
+
+## Lifecycle handoff
+
+Before:
+
+- [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) for account research and call prep.
+
+This repo produces:
+
+- Objection bank
+- Deal rescue queue
+- Weekly sales learning memo
+- Narrative experiments
+
+After:
+
+- [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) for revenue leakage diagnosis.
+- [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) after close-won.
+- [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) for weekly review.
+
 ## Where this fits in the Founder OS
 
 - Use [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) before calls to research accounts and prepare outreach.
