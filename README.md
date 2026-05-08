@@ -154,6 +154,7 @@ If you are non-technical, the practical path is:
 - Use [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) before calls to research accounts and prepare outreach.
 - Use `founder-led-sales-call-os` after calls to extract learning and prioritize deal rescue.
 - Use [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) weekly to connect call-level insights to funnel leakage.
+- After a deal closes, use [Founder Customer Onboarding OS](https://github.com/shubham1502-hue/founder-customer-onboarding-os) to track whether the customer reaches activation, whether handoffs are clear, and whether founder intervention is needed.
 - Use [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) when post-call workflows need an automate, pilot, hire, outsource, or keep-manual decision.
 - Use [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) to roll these learnings into the weekly operating review.
 - Use [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) to translate GTM learning into investor-safe narrative.
@@ -168,6 +169,7 @@ This repo is one module in a broader founder-facing operating system:
 - `ai-gtm-command-center` helps before the sales call.
 - `founder-led-sales-call-os` helps after the sales call.
 - `founder-os-revenue-engine` helps diagnose funnel leakage.
+- `founder-customer-onboarding-os` helps after close-won with onboarding health, activation risk, and founder intervention priorities.
 - `founder-weekly-operating-review-agent` helps run the weekly operating review.
 - `board-pack-investor-update-agent` helps convert operating metrics into investor narrative.
 
