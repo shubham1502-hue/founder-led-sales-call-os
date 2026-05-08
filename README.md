@@ -15,6 +15,37 @@ The included sample run generates a call intelligence CSV, objection bank, deal 
 The base workflow is deterministic and offline. No paid API is required.
 All included sample data is synthetic and fictionalized.
 
+## Output preview
+
+The included sample run produces:
+
+- `outputs/call_intelligence.csv`: structured sales call signals
+- `outputs/objection_bank.csv`: repeated objection themes
+- `outputs/deal_rescue_queue.csv`: deals needing founder or owner action
+- `outputs/weekly_sales_learning_memo.md`: founder-ready GTM learning memo
+- `outputs/narrative_experiments.md`: sales narrative tests for the next cycle
+
+## 7-day Founder's Office sprint
+
+- Day 1: Collect recent call notes and normalize the tracker
+- Day 2: Run the call intelligence workflow
+- Day 3: Review repeated objections and confusion patterns
+- Day 4: Prioritize deal rescue actions with owners
+- Day 5: Draft narrative experiments for the next sales week
+- Day 6: Update CRM with follow-ups and risk notes
+- Day 7: Feed sales learning into the weekly GTM operating review
+
+## Founder's Office signal
+
+This repo demonstrates:
+
+- turning messy qualitative notes into operating signal
+- objection and risk pattern recognition
+- founder follow-up prioritization
+- sales narrative iteration
+- deal owner assignment
+- weekly learning memo creation
+
 ## The founder problem
 
 Founders are doing sales calls, but the learning from those calls stays trapped in messy notes, memory, CRM comments, Slack threads, WhatsApp context, and scattered follow-ups.
