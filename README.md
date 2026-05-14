@@ -15,6 +15,15 @@ The included sample run generates a call intelligence CSV, objection bank, deal 
 The base workflow is deterministic and offline. No paid API is required.
 All included sample data is synthetic and fictionalized.
 
+## Start here
+
+| Reader | Open first | Why | CTA |
+| --- | --- | --- | --- |
+| Founder | `outputs/weekly_sales_learning_memo.md` | See what the sales calls are teaching you. | Pick one narrative experiment for the next sales week. |
+| Non-technical operator | `docs/sales-call-note-template.md` | Capture cleaner sales-call notes without running code. | Copy the template before the next founder-led sales call. |
+| Technical operator | `Makefile` | See the demo, run, install, and test commands. | Run `make demo`, then inspect `outputs/deal_rescue_queue.csv`. |
+| Hiring manager | `outputs/objection_bank.csv` | See how messy notes become structured operating signal. | Review the objection bank and rescue queue together. |
+
 ## Output preview
 
 The included sample run produces:
