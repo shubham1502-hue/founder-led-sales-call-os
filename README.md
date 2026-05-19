@@ -1,8 +1,10 @@
 # Founder-Led Sales Call OS
 
-Turn messy founder sales calls into objections, deal risks, follow-up priorities, and GTM narrative experiments.
+Post-call operating system for founder-led sales teams that need to turn messy call notes into objections, deal risk, follow-up priorities, and GTM narrative experiments.
 
-Use this after sales calls. Drop in your messy call notes, edit one YAML file, run one command, and get a founder-ready weekly learning loop:
+Use this after the sales call, not before it. This repo is for the moment when the founder has call notes, CRM fragments, objections, and weak next steps, but no clean operating loop for what the market is teaching them.
+
+Drop in messy call notes, edit one YAML file, run one command, and get a founder-ready weekly learning loop:
 
 - Which objections repeated
 - Which deals need founder intervention
@@ -10,7 +12,7 @@ Use this after sales calls. Drop in your messy call notes, edit one YAML file, r
 - Which proof points are missing
 - What narrative to test next week
 
-The included sample run generates a call intelligence CSV, objection bank, deal rescue queue, weekly sales learning memo, and narrative experiments. It is built for founders who need decisions, not another dashboard.
+The included sample run generates a call intelligence CSV, objection bank, deal rescue queue, weekly sales learning memo, and narrative experiments. It is built for founders who need post-call judgment, not another outbound tool or CRM dashboard.
 
 The base workflow is deterministic and offline. No paid API is required.
 All included sample data is synthetic and fictionalized.
@@ -22,7 +24,16 @@ All included sample data is synthetic and fictionalized.
 | Founder | `outputs/weekly_sales_learning_memo.md` | See what the sales calls are teaching you. | Pick one narrative experiment for the next sales week. |
 | Non-technical operator | `docs/sales-call-note-template.md` | Capture cleaner sales-call notes without running code. | Copy the template before the next founder-led sales call. |
 | Technical operator | `Makefile` | See the demo, run, install, and test commands. | Run `make demo`, then inspect `outputs/deal_rescue_queue.csv`. |
-| Hiring manager | `outputs/objection_bank.csv` | See how messy notes become structured operating signal. | Review the objection bank and rescue queue together. |
+| Hiring manager | `outputs/weekly_sales_learning_memo.md` | See how messy qualitative notes become founder-ready operating judgment. | Review the memo, objection bank, and rescue queue together. |
+
+## Use this instead of adjacent repos when
+
+| If the operating problem is... | Use this repo | Use the adjacent repo instead when... |
+| --- | --- | --- |
+| Learning from completed founder-led sales calls | Yes | Use `ai-gtm-command-center` before calls for account research and prep. |
+| Prioritizing deals that need founder intervention | Yes | Use `founder-os-revenue-engine` for broader funnel leakage and revenue diagnosis. |
+| Turning repeated objections into narrative experiments | Yes | Use `founder-product-feedback-roadmap-os` when the signal should become a roadmap decision. |
+| Deciding whether call follow-up should be automated | No | Use `founder-ai-workflow-roi-os` for automate, hire, outsource, or keep-manual decisions. |
 
 ## Output preview
 
@@ -359,8 +370,8 @@ Built by Shubham Singh, a founder-facing operator focused on RevOps, GTM systems
 
 ## Use this in your company
 
-Fork it, replace the sample inputs with your company context, and run the workflow. Start with the main output listed in the Quick Start section. Keep private data out of public forks.
+Fork it when founder-led sales learning is stuck in notes, CRM comments, or memory. Replace `data/sample_sales_calls.csv`, edit `config/company_profile.yml`, run `make run`, and start with `outputs/weekly_sales_learning_memo.md`. Keep private prospect and customer data out of public forks.
 
 ## If you are a Founder's Office candidate
 
-Use this repo to understand how a founder-facing operator turns messy inputs into decisions, cadence, and execution artifacts. Fork it, adapt it to a real company example, and write a short case note explaining what changed.
+Use this repo to show post-call operating judgment: extracting signal, prioritizing follow-up, separating deal risk from narrative risk, and turning sales learning into a weekly founder review. Do not position it as a generic outbound automation project.
